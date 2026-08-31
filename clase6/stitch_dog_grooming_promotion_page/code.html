@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="es">
+
+<head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <title>Paws&amp;Bubbles | El Look Perfecto para tu Mejor Amigo</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+        <link href="https://fonts.googleapis.com" rel="preconnect" />
+        <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&amp;family=Quicksand:wght@600;700&amp;display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+                rel="stylesheet" />
+        <script id="tailwind-config">
+                tailwind.config = {
+                        darkMode: "class",
+                        theme: {
+                                extend: {
+                                        "colors": {
+                                                "on-secondary": "#ffffff",
+                                                "on-secondary-container": "#765900",
+                                                "inverse-on-surface": "#ebf2f4",
+                                                "primary-container": "#2976c7",
+                                                "tertiary-container": "#737576",
+                                                "surface-dim": "#d4dbdd",
+                                                "on-background": "#161d1f",
+                                                "tertiary-fixed-dim": "#c5c7c8",
+                                                "on-secondary-fixed-variant": "#5b4300",
+                                                "primary-fixed-dim": "#a4c9ff",
+                                                "surface-tint": "#0060ac",
+                                                "on-tertiary": "#ffffff",
+                                                "surface-container-lowest": "#ffffff",
+                                                "surface-bright": "#f4fafd",
+                                                "surface-variant": "#dde4e6",
+                                                "surface-container": "#e8eff1",
+                                                "tertiary-fixed": "#e1e3e4",
+                                                "on-secondary-fixed": "#251a00",
+                                                "on-tertiary-container": "#fcfdfe",
+                                                "on-tertiary-fixed-variant": "#454748",
+                                                "surface": "#f4fafd",
+                                                "on-primary-container": "#fdfcff",
+                                                "surface-container-high": "#e2e9ec",
+                                                "secondary-container": "#ffd167",
+                                                "surface-container-low": "#eef5f7",
+                                                "secondary-fixed": "#ffdf9b",
+                                                "tertiary": "#5a5c5d",
+                                                "primary": "#005da7",
+                                                "surface-container-highest": "#dde4e6",
+                                                "on-error": "#ffffff",
+                                                "on-error-container": "#93000a",
+                                                "inverse-surface": "#2b3234",
+                                                "secondary": "#785a00",
+                                                "outline": "#717783",
+                                                "on-primary-fixed-variant": "#004883",
+                                                "on-primary-fixed": "#001c39",
+                                                "error": "#ba1a1a",
+                                                "error-container": "#ffdad6",
+                                                "on-primary": "#ffffff",
+                                                "outline-variant": "#c1c7d3",
+                                                "on-tertiary-fixed": "#191c1d",
+                                                "primary-fixed": "#d4e3ff",
+                                                "on-surface": "#161d1f",
+                                                "secondary-fixed-dim": "#edc157",
+                                                "on-surface-variant": "#414751",
+                                                "background": "#f4fafd",
+                                                "inverse-primary": "#a4c9ff"
+                                        },
+                                        "borderRadius": {
+                                                "DEFAULT": "0.25rem",
+                                                "lg": "0.5rem",
+                                                "xl": "0.75rem",
+                                                "full": "9999px"
+                                        },
+                                        "spacing": {
+                                                "section-gap": "80px",
+                                                "margin-desktop": "40px",
+                                                "margin-mobile": "16px",
+                                                "gutter": "24px",
+                                                "unit": "8px",
+                                                "container-max": "1200px"
+                                        },
+                                        "fontFamily": {
+                                                "body-lg": [
+                                                        "Plus Jakarta Sans"
+                                                ],
+                                                "body-md": [
+                                                        "Plus Jakarta Sans"
+                                                ],
+                                                "display-lg-mobile": [
+                                                        "Quicksand"
+                                                ],
+                                                "label-sm": [
+                                                        "Plus Jakarta Sans"
+                                                ],
+                                                "display-lg": [
+                                                        "Quicksand"
+                                                ],
+                                                "headline-md": [
+                                                        "Quicksand"
+                                                ]
+                                        },
+                                        "fontSize": {
+                                                "body-lg": [
+                                                        "18px",
+                                                        {
+                                                                "lineHeight": "28px",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "body-md": [
+                                                        "16px",
+                                                        {
+                                                                "lineHeight": "24px",
+                                                                "fontWeight": "400"
+                                                        }
+                                                ],
+                                                "display-lg-mobile": [
+                                                        "32px",
+                                                        {
+                                                                "lineHeight": "40px",
+                                                                "letterSpacing": "-0.01em",
+                                                                "fontWeight": "700"
+                                                        }
+                                                ],
+                                                "label-sm": [
+                                                        "14px",
+                                                        {
+                                                                "lineHeight": "20px",
+                                                                "letterSpacing": "0.05em",
+                                                                "fontWeight": "600"
+                                                        }
+                                                ],
+                                                "display-lg": [
+                                                        "48px",
+                                                        {
+                                                                "lineHeight": "56px",
+                                                                "letterSpacing": "-0.02em",
+                                                                "fontWeight": "700"
+                                                        }
+                                                ],
+                                                "headline-md": [
+                                                        "24px",
+                                                        {
+                                                                "lineHeight": "32px",
+                                                                "fontWeight": "600"
+                                                        }
+                                                ]
+                                        }
+                                },
+                        },
+                }
+        </script>
+        <style>
+                .glass-card {
+                        background: rgba(255, 255, 255, 0.7);
+                        backdrop-filter: blur(16px);
+                        -webkit-backdrop-filter: blur(16px);
+                        border: 1px solid rgba(255, 255, 255, 0.5);
+                        box-shadow: 0 8px 32px 0 rgba(0, 93, 167, 0.05);
+                }
+
+                .soft-shadow {
+                        box-shadow: 0 20px 40px -10px rgba(0, 93, 167, 0.08);
+                }
+        </style>
+</head>
+
+<body class="bg-background text-on-background font-body-md min-h-screen flex flex-col antialiased">
+        <!-- TopNavBar -->
+        <header
+                class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto bg-surface/80 dark:bg-surface-dim/80 backdrop-blur-md shadow-sm dark:shadow-none transition-all duration-300">
+                <a class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim hover:opacity-80 transition-opacity flex items-center gap-2"
+                        href="#">
+                        <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">pets</span>
+                        Paws&amp;Bubbles
+                </a>
+                <nav class="hidden md:flex gap-8">
+                        <a class="text-primary dark:text-primary-fixed-dim font-bold border-b-2 border-primary dark:border-primary-fixed-dim pb-1 font-label-sm text-label-sm"
+                                href="#home">Inicio</a>
+                        <a class="text-on-surface-variant dark:text-on-surface font-medium hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200 font-label-sm text-label-sm"
+                                href="#services">Servicios</a>
+                </nav>
+                <a class="bg-primary text-on-primary hover:bg-primary/90 px-6 py-3 rounded-full font-label-sm text-label-sm shadow-md transition-all active:scale-95 flex items-center gap-2"
+                        href="#booking">
+                        Reservar Turno
+                </a>
+        </header>
+        <main class="flex-grow pt-24 pb-section-gap">
+                <!-- Hero Section -->
+                <section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12 md:py-24 grid md:grid-cols-2 gap-gutter items-center relative"
+                        id="home">
+                        <div class="z-10 order-2 md:order-1 flex flex-col gap-6">
+                                <h1
+                                        class="font-display-lg-mobile text-display-lg-mobile md:font-display-lg md:text-display-lg text-primary">
+                                        El Look Perfecto para tu <br /><span class="text-secondary">Mejor Amigo</span>
+                                </h1>
+                                <p class="font-body-lg text-body-lg text-on-surface-variant max-w-md">
+                                        Brindamos cuidado y estética profesional con amor. Usamos productos de alta
+                                        calidad para que tu mascota luzca increíble y se sienta relajada en un ambiente
+                                        seguro.
+                                </p>
+                                <div class="flex gap-4 pt-4">
+                                        <a class="bg-primary text-on-primary px-8 py-4 rounded-full font-label-sm text-label-sm shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all active:scale-95 inline-flex items-center gap-2"
+                                                href="#booking">
+                                                Reservar Turno
+                                                <span
+                                                        class="material-symbols-outlined text-[18px]">calendar_month</span>
+                                        </a>
+                                </div>
+                        </div>
+                        <div
+                                class="relative order-1 md:order-2 h-[400px] md:h-[600px] rounded-3xl overflow-hidden soft-shadow">
+                                <img alt="Hero image" class="w-full h-full object-cover"
+                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEHgJCAyO6YS20lhLaDUpbXoQqm-HgjRyLZBuXwirhuN80nTFOLgg9VIGCMuFdiodxzVPivJkgxjTykUvfiSPJ7hOsyCtzIyLkNeZC3TMnDJ7qWcBV-7qV5rCVI7FzA0o6uDBWQwtkVhryUxgarc4APWSHyaBM4BCmMWt4PlVz_YUcIhnB6thsfE3UDgV_TCRp92ShdIXrJOPG7EwxS7zF3PktsLc31zpYGYxT6XpheeWAST96PGqubA" />
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                        </div>
+                </section>
+                <!-- Promo Section -->
+                <section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12">
+                        <div
+                                class="bg-secondary-container rounded-3xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden soft-shadow border border-secondary/10">
+                                <!-- Abstract decorative element -->
+                                <div
+                                        class="absolute -right-20 -top-20 w-64 h-64 bg-secondary-fixed/50 rounded-full blur-3xl">
+                                </div>
+                                <div class="z-10 flex-1">
+                                        <div
+                                                class="inline-flex items-center gap-2 bg-white/50 px-4 py-1.5 rounded-full mb-4">
+                                                <span class="material-symbols-outlined text-secondary text-[16px] animate-pulse"
+                                                        style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+                                                <span class="font-label-sm text-label-sm text-on-secondary-container">Oferta
+                                                        por Tiempo Limitado</span>
+                                        </div>
+                                        <h2 class="font-headline-md text-headline-md text-on-secondary-container mb-2">
+                                                Corte de Pelo Especial</h2>
+                                        <p class="font-body-md text-body-md text-on-secondary-container/80 max-w-md">
+                                                Renueva el estilo de tu mascota con nuestro paquete premium que incluye
+                                                baño hidratante, corte personalizado y limado de uñas.</p>
+                                </div>
+                                <div
+                                        class="z-10 flex flex-col items-center bg-surface-container-lowest p-6 rounded-2xl shadow-sm border border-surface-variant min-w-[200px]">
+                                        <span
+                                                class="text-tertiary-container line-through font-body-md text-body-md mb-1">Antes
+                                                $40</span>
+                                        <span
+                                                class="font-display-lg-mobile text-display-lg-mobile text-primary mb-4">$25</span>
+                                        <a class="bg-secondary text-on-secondary w-full text-center px-6 py-3 rounded-full font-label-sm text-label-sm hover:bg-secondary/90 transition-colors"
+                                                href="#booking">
+                                                Aprovechar Oferta
+                                        </a>
+                                </div>
+                        </div>
+                </section>
+                <!-- Services Section -->
+                <section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-section-gap"
+                        id="services">
+                        <div class="text-center mb-12">
+                                <h2 class="font-headline-md text-headline-md text-primary mb-4">Nuestros Servicios</h2>
+                                <p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mx-auto">Cuidado
+                                        integral adaptado a las necesidades de cada mascota.</p>
+                        </div>
+                        <div class="grid md:grid-cols-3 gap-gutter">
+                                <!-- Service 1 -->
+                                <div
+                                        class="glass-card p-8 rounded-3xl flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
+                                        <div
+                                                class="w-20 h-20 bg-primary-fixed rounded-2xl flex items-center justify-center mb-6 shadow-inner overflow-hidden">
+                                                <img alt="Service Icon"
+                                                        class="w-12 h-12 object-contain mix-blend-multiply opacity-80"
+                                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWEKtdvtrkCzMTPRFFQ2nuVYIVIY0jX7SFHcI798-XuBkKyKvefLaa4-iwgtiRtIT6vSET8YAqWHtNbHNSAZJZmCgHkNvmJrLM6JKRLcUxMlF8ajwydQQid9CjFpfo568nkIFqpHQ5DicG9T5OibDRqXyBzw4hIZA68sYXWsFl9rzrfJwYs98fmCiHBo6hvyWZq8vNCREET6DrsXG_cGevWchN2zL0yZsy9vrCDk4hhDHXkvx3PpKm3g" />
+                                        </div>
+                                        <h3 class="font-label-sm text-label-sm text-on-surface mb-2 text-lg">Baño y
+                                                Secado</h3>
+                                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Shampoo
+                                                hipoalergénico y secado sin estrés para un pelaje brillante.</p>
+                                </div>
+                                <!-- Service 2 -->
+                                <div
+                                        class="glass-card p-8 rounded-3xl flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
+                                        <div
+                                                class="w-20 h-20 bg-secondary-fixed rounded-2xl flex items-center justify-center mb-6 shadow-inner overflow-hidden">
+                                                <img alt="Service Icon"
+                                                        class="w-12 h-12 object-contain mix-blend-multiply opacity-80"
+                                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWEKtdvtrkCzMTPRFFQ2nuVYIVIY0jX7SFHcI798-XuBkKyKvefLaa4-iwgtiRtIT6vSET8YAqWHtNbHNSAZJZmCgHkNvmJrLM6JKRLcUxMlF8ajwydQQid9CjFpfo568nkIFqpHQ5DicG9T5OibDRqXyBzw4hIZA68sYXWsFl9rzrfJwYs98fmCiHBo6hvyWZq8vNCREET6DrsXG_cGevWchN2zL0yZsy9vrCDk4hhDHXkvx3PpKm3g" />
+                                        </div>
+                                        <h3 class="font-label-sm text-label-sm text-on-surface mb-2 text-lg">Corte de
+                                                Estilo</h3>
+                                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Cortes a
+                                                tijera o máquina según los estándares de la raza o tu preferencia.</p>
+                                </div>
+                                <!-- Service 3 -->
+                                <div
+                                        class="glass-card p-8 rounded-3xl flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
+                                        <div
+                                                class="w-20 h-20 bg-primary-fixed rounded-2xl flex items-center justify-center mb-6 shadow-inner overflow-hidden">
+                                                <img alt="Service Icon"
+                                                        class="w-12 h-12 object-contain mix-blend-multiply opacity-80"
+                                                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWEKtdvtrkCzMTPRFFQ2nuVYIVIY0jX7SFHcI798-XuBkKyKvefLaa4-iwgtiRtIT6vSET8YAqWHtNbHNSAZJZmCgHkNvmJrLM6JKRLcUxMlF8ajwydQQid9CjFpfo568nkIFqpHQ5DicG9T5OibDRqXyBzw4hIZA68sYXWsFl9rzrfJwYs98fmCiHBo6hvyWZq8vNCREET6DrsXG_cGevWchN2zL0yZsy9vrCDk4hhDHXkvx3PpKm3g" />
+                                        </div>
+                                        <h3 class="font-label-sm text-label-sm text-on-surface mb-2 text-lg">Higiene
+                                                Completa</h3>
+                                        <p class="font-body-md text-body-md text-on-surface-variant text-sm">Limpieza de
+                                                oídos, corte de uñas y vaciado de glándulas.</p>
+                                </div>
+                        </div>
+                </section>
+                <!-- Booking & Testimonials Bento Grid -->
+                <section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12" id="booking">
+                        <div class="grid lg:grid-cols-12 gap-gutter items-stretch">
+                                <!-- Booking Form -->
+                                <div
+                                        class="lg:col-span-7 bg-surface-container-lowest p-8 md:p-10 rounded-3xl border border-surface-variant soft-shadow">
+                                        <div class="mb-8">
+                                                <h2 class="font-headline-md text-headline-md text-primary mb-2">Reserva
+                                                        una Cita</h2>
+                                                <p class="font-body-md text-body-md text-on-surface-variant">Completa el
+                                                        formulario y nos contactaremos para confirmar el horario.</p>
+                                        </div>
+                                        <form class="space-y-6">
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                        <div class="space-y-2">
+                                                                <label
+                                                                        class="font-label-sm text-label-sm text-on-surface">Nombre
+                                                                        del Dueño</label>
+                                                                <input class="w-full bg-surface border-surface-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-shadow px-4 py-3 font-body-md text-body-md placeholder:text-tertiary-container"
+                                                                        placeholder="Ej: María Gómez" type="text" />
+                                                        </div>
+                                                        <div class="space-y-2">
+                                                                <label
+                                                                        class="font-label-sm text-label-sm text-on-surface">Nombre
+                                                                        del Perrito</label>
+                                                                <input class="w-full bg-surface border-surface-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-shadow px-4 py-3 font-body-md text-body-md placeholder:text-tertiary-container"
+                                                                        placeholder="Ej: Max" type="text" />
+                                                        </div>
+                                                </div>
+                                                <div class="grid md:grid-cols-2 gap-6">
+                                                        <div class="space-y-2">
+                                                                <label
+                                                                        class="font-label-sm text-label-sm text-on-surface">Raza</label>
+                                                                <input class="w-full bg-surface border-surface-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-shadow px-4 py-3 font-body-md text-body-md placeholder:text-tertiary-container"
+                                                                        placeholder="Ej: Poodle" type="text" />
+                                                        </div>
+                                                        <div class="space-y-2">
+                                                                <label
+                                                                        class="font-label-sm text-label-sm text-on-surface">Fecha
+                                                                        Deseada</label>
+                                                                <input class="w-full bg-surface border-surface-variant rounded-lg focus:ring-2 focus:ring-primary focus:border-primary transition-shadow px-4 py-3 font-body-md text-body-md text-on-surface"
+                                                                        type="date" />
+                                                        </div>
+                                                </div>
+                                                <button class="w-full bg-primary text-on-primary py-4 rounded-xl font-label-sm text-label-sm shadow-md hover:bg-primary/90 transition-colors mt-4 flex justify-center items-center gap-2"
+                                                        type="button">
+                                                        Solicitar Turno
+                                                        <span class="material-symbols-outlined text-[20px]">send</span>
+                                                </button>
+                                        </form>
+                                </div>
+                                <!-- Testimonials -->
+                                <div class="lg:col-span-5 flex flex-col gap-6">
+                                        <div
+                                                class="bg-primary-fixed p-6 rounded-3xl flex-1 flex flex-col justify-center relative overflow-hidden">
+                                                <span class="material-symbols-outlined absolute -top-4 -right-4 text-primary/10 text-[120px] select-none"
+                                                        style="font-variation-settings: 'FILL' 1;">format_quote</span>
+                                                <div class="relative z-10">
+                                                        <div class="flex items-center gap-2 mb-3 text-secondary">
+                                                                <span class="material-symbols-outlined text-[20px]"
+                                                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                                                <span class="material-symbols-outlined text-[20px]"
+                                                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                                                <span class="material-symbols-outlined text-[20px]"
+                                                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                                                <span class="material-symbols-outlined text-[20px]"
+                                                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                                                <span class="material-symbols-outlined text-[20px]"
+                                                                        style="font-variation-settings: 'FILL' 1;">star</span>
+                                                        </div>
+                                                        <p
+                                                                class="font-body-md text-body-md text-on-surface italic mb-4">
+                                                                "Toby quedó hermoso. El trato fue excelente y los
+                                                                productos huelen increíble. ¡Súper recomendados!"</p>
+                                                        <p class="font-label-sm text-label-sm text-primary">— Dueño de
+                                                                Toby</p>
+                                                </div>
+                                        </div>
+                                        <div class="flex gap-6 h-1/2">
+                                                <div
+                                                        class="bg-surface-container p-6 rounded-3xl flex-1 flex flex-col justify-center border border-surface-variant/50">
+                                                        <p
+                                                                class="font-body-md text-body-md text-on-surface-variant text-sm italic mb-3">
+                                                                "Luna ama venir aquí. Siempre sale feliz y relajada. El
+                                                                mejor servicio del área."</p>
+                                                        <p
+                                                                class="font-label-sm text-label-sm text-tertiary-container text-xs">
+                                                                — Familia de Luna</p>
+                                                </div>
+                                                <div
+                                                        class="bg-surface-container p-6 rounded-3xl flex-1 flex flex-col justify-center border border-surface-variant/50">
+                                                        <p
+                                                                class="font-body-md text-body-md text-on-surface-variant text-sm italic mb-3">
+                                                                "Increíble paciencia con perritos nerviosos como Bruno.
+                                                                Volveremos sin duda."</p>
+                                                        <p
+                                                                class="font-label-sm text-label-sm text-tertiary-container text-xs">
+                                                                — Papá de Bruno</p>
+                                                </div>
+                                        </div>
+                                </div>
+                        </div>
+                </section>
+        </main>
+        <!-- Footer -->
+        <footer
+                class="w-full px-margin-mobile md:px-margin-desktop py-section-gap flex flex-col md:flex-row justify-between items-start gap-gutter bg-surface-container-highest dark:bg-inverse-surface mt-auto">
+                <div class="flex flex-col gap-4">
+                        <span
+                                class="text-headline-md font-headline-md text-primary dark:text-primary-fixed-dim flex items-center gap-2">
+                                <span class="material-symbols-outlined"
+                                        style="font-variation-settings: 'FILL' 1;">pets</span>
+                                Paws&amp;Bubbles
+                        </span>
+                        <p
+                                class="font-body-md text-body-md text-on-surface dark:text-inverse-on-surface text-sm opacity-80">
+                                © 2024 Paws&amp;Bubbles Grooming. All rights reserved.
+                        </p>
+                </div>
+                <div class="flex flex-wrap gap-x-8 gap-y-4">
+                        <a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim hover:underline transition-opacity duration-200"
+                                href="#">Privacy Policy</a>
+                        <a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim hover:underline transition-opacity duration-200"
+                                href="#">Terms of Service</a>
+                        <a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim hover:underline transition-opacity duration-200"
+                                href="#">Contact Us</a>
+                        <a class="font-label-sm text-label-sm text-on-surface-variant dark:text-surface-variant hover:text-primary dark:hover:text-primary-fixed-dim hover:underline transition-opacity duration-200"
+                                href="#">Careers</a>
+                </div>
+        </footer>
+</body>
+
+</html>

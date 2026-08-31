@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html"> aria-label="Ir al Inicio"
+            <img src="recursos/imagenes/perro.jpg" alt="perro blanco y negro">
+        </a>
+        <nav>
+            <a href="./index.html">
+                Inicio
+            </a>
+            <a href="./contacto.html">
+                contacto
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <form action="./contacto.html" method="post">
+            <!-- 
+            nombre
+            telefono
+            tamañp
+            edad
+            comentarios sobre mascota
+            -->
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+
+            <label for="id-telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+
+            <label for="id-tamaño">Tamaño de la mascota</label>
+            <select name="tamaño mascota" id="id-tamaño">
+                <option value="C">Chico</option>
+                <option value="M">Mediano</option>
+                <option value="G">Grande</option>
+            </select>
+
+            <label for="id-edad">Edad</label>
+            <input type="number" name="edad" id="id-edad">
+
+            <label for="id-comentarios">Comentario sobre la mascota</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+            
+            <button type="reset">
+                Limpiar
+            </button>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target-"_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Bv. San Juan 200 - Bº Nueva Córdoba  
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
