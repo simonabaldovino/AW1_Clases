@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huellitas</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html" aria-label="Ir al Inicio">
+            <img src="recursos/imagenes/perro.jpg" alt="perro blanco y negro">
+        </a>
+        <nav>
+            <a href="./index.html">
+                Inicio
+            </a>
+            <a href="./contacto.html">
+                Contacto
+            </a>
+             <a href="./catalogo.html">
+                Catálogo
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+        <h2>Escribinos</h2>
+        <form action="./contacto.html" method="post">
+            <!-- 
+            nombre
+            telefono
+            tamañp
+            edad
+            comentarios sobre mascota
+            -->
+            <label for="id-nombre">Nombre</label>
+            <input type="text" name="nombre" id="id-nombre">
+
+            <label for="id-telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="id-telefono">
+
+            <label for="id-tamaño">Tamaño de la mascota</label>
+            <select name="tamaño mascota" id="id-tamaño">
+                <option value="C">Chico</option>
+                <option value="M">Mediano</option>
+                <option value="G">Grande</option>
+            </select>
+
+            <label for="id-edad">Edad</label>
+            <input type="number" name="edad" id="id-edad">
+
+            <label for="id-comentarios">Comentario sobre la mascota</label>
+            <textarea name="comentarios" id="id-comentarios"></textarea>
+            
+            <button type="reset">
+                Limpiar
+            </button>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+        <h2>Donde estamos..</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.22057269393!2d-64.19147712373409!3d-31.419939663408485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a286a09424ab%3A0x637dd38a25e5eb11!2sBlvd.%20San%20Juan%20200%2C%20X5022%20C%C3%B3rdoba!5e1!3m2!1ses!2sar!4v1788354944321!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </main>
+
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                </a>
+            </li>
+            <li>
+                Bv. San Juan 200 - Bº Nueva Córdoba  
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
