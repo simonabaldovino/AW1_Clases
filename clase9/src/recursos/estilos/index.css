@@ -1,0 +1,83 @@
+/*
+Sintaxis
+*/
+/* 
+Regla de estilo (rule)
+*/
+/*
+selector {
+    propiedad1: valor;
+     propiedad2: valor;
+     } 
+*/
+
+/* IMPORTAR FUENTE*/
+@font-face{
+  font-family: Poppins;
+  src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL*/
+*{
+   /*  outline: 1px #ff2c24 ;*/
+}
+
+/*SELECTOR DE TIPO*/
+ html{
+    font-family: Poppins,Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+
+body{
+    background-color: #e8e9eb;
+
+}
+
+header{
+    background-color: #e8ff81;
+}
+header{
+    background-color: #ff2c24;
+}
+
+a{
+    color: rgb(59, 88, 11);
+    text-decoration: none;
+}
+
+/* SELECTORES DE CLASE */
+/*
+.vinculos{
+    color: antiquewhite;
+}
+*/
+
+.encabezado-principal{
+    background-color: rgb(172, 172, 172, 0.438);
+}
+
+.encabezado-principal .vinculos a{
+    color: #ffffff;
+
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal{
+
+}
+
+/* PIE PRINCIPAL  */
+.pie-principal{
+
+}
+
+/* ATRIBUTO */
+/* [href] {
+
+}
+*/
+
+#contactos{
+
+}
