@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+/* reset */
+html, 
+body, 
+h1, 
+h2,
+h3,
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: #eee;
+}
+
+a {
+    color: #661515;
+    text-decoration: none;
+}
+
+/* Plantilla */
+
+.encabezado-principal {
+    padding: 5px 10px 20px 10px;
+    background-color: rgb(219, 216, 214);
+    border-bottom: 2px solid #661515;
+}
+
+.encabezado-principal nav {
+    width: 100%;  
+    height: 120px;
+    padding: 5px;
+    border: 1px solid #682b2b;
+    background-color: rgb(236, 227, 220);
+}
+
+
+.contenido-principal {
+    padding: 10px;
+}
+
+.contenido-principal form input{
+    display: block;
+    width: 100%;
+}
+
+
+.pie-principal {
+    background-color: rgb(206, 194, 185);
+}
