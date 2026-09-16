@@ -1,0 +1,102 @@
+/*
+Sintaxis
+*/
+/* 
+Regla de estilo (rule)
+*/
+/*
+selector {
+    propiedad1: valor;
+     propiedad2: valor;
+     } 
+*/
+
+/* IMPORTAR FUENTE*/
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL*/
+* {
+    /*  outline: 1px #ff2c24 ;*/
+}
+
+html,
+body {
+    margin: 0;
+}
+
+/*SELECTOR DE TIPO*/
+html {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+    background-color: #e8e9eb;
+
+}
+
+/*
+header {
+    background-color: #8ba5c2;
+}
+*/
+
+a {
+    color: rgb(59, 88, 11);
+    text-decoration: none;
+}
+
+/* SELECTORES DE CLASE */
+/*
+.vinculos{
+    color: antiquewhite;
+}
+*/
+
+.encabezado-principal {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 172, 172, 0.438);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.encabezado-principal a img {
+    width: 50px;
+}
+
+.encabezado-principal .vinculos a {
+    color: #ffffff;
+
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {}
+
+.contenido-principal .contenedor-form {
+    padding: 20px 20%;
+}
+
+.contenido-principal .contenedor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* PIE PRINCIPAL  */
+.pie-principal {
+    background-color: rgb(172, 172, 172, 0.438);
+
+}
+
+/* ATRIBUTO */
+/* [href] {
+
+}
+*/
+
+#contactos {}
