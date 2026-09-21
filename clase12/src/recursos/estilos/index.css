@@ -1,0 +1,122 @@
+/*
+Sintaxis
+*/
+/* 
+Regla de estilo (rule)
+*/
+/*
+selector {
+    propiedad1: valor;
+     propiedad2: valor;
+     } 
+*/
+
+/* IMPORTAR FUENTE*/
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL*/
+* {
+    /*  outline: 1px #ff2c24 ;*/
+}
+
+html,
+body {
+    margin: 0;
+}
+
+/*SELECTOR DE TIPO*/
+html {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; /* valor q afecta a todos los textos y6 se toma como referencia tambien */
+}
+
+
+
+body {
+    background-color: #e8e9eb;
+}
+
+/*
+header {
+    background-color: #8ba5c2;
+}
+*/
+
+a {
+    color: rgb(59, 88, 11);
+    text-decoration: none;
+}
+
+/* SELECTORES DE CLASE */
+/*
+.vinculos{
+    color: antiquewhite;
+}
+*/
+
+.encabezado-principal {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 172, 172, 0.438);
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.encabezado-principal a img {
+    width: 50px;
+}
+
+.encabezado-principal .vinculos a {
+    color: #ffffff;
+
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {
+    background-color: #ffffff;
+   /* position: relative; */
+    height: 1500px;
+}
+.contenido-principal .parrafo{
+    font-size: 0.9rem;  /* relativo a la raiz *//* busca el valor q tiene el html y lo multiplica por el valor de ahi */
+    top: 100px;
+    right: 100px;
+    background-color: burlywood;
+    width: 200px;
+    position: absolute;
+}
+
+.contenido-principal .contenedor-form {
+    padding: 20px 20%;
+}
+
+.contenido-principal .contenedor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* PIE PRINCIPAL  */
+.pie-principal {
+    background-color: rgb(172, 172, 172, 0.438);
+}
+
+.pie-principal li.mensajeria{
+    list-style: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* ATRIBUTO */
+/* [href] {
+
+}
+*/
+
+#contactos {}
