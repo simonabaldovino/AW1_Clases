@@ -19,3 +19,10 @@ const numerosIncrementados = numeros.map((numero)=>{
 console.log(numerosIncrementados)
 
 // filter (nuevo arreglo) y find (valor)
+
+
+
+const numerosFiltrados = numeros.filter((numero)=>{
+    return numero> 10
+})
+console.log(numerosFiltrados)
