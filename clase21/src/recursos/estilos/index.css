@@ -1,0 +1,126 @@
+/*
+Sintaxis
+*/
+/* Regla de estilo (Rule) */
+/*
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+}
+    */
+
+* {
+    box-sizing: border-box;
+}
+
+/* IMPORTAR FUENTE */
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectores de TIPO */
+
+html {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px; /* valor que afecta a todos los textos, y se toma como referencia */
+}
+
+body {
+    background-color: #aaa;
+    /* #000000 #ffffff */
+}
+
+
+header {
+    background-color: #ffff00;
+}
+
+/* header {
+    background-color: #ff0000;
+} */
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+/* Selectores de CLASE */
+/* .vinculos{
+    color: #ffffff;
+} */
+
+
+/* ENCABEZADO */
+
+.encabezado-principal {
+    position: sticky;
+    top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.encabezado-principal a img {
+    width: 50px;
+}
+
+.encabezado-principal .vinculos a {
+    color: #333;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {
+    background-color: #fff;
+    /*position: relative;*/
+    /* height: 1500px; */
+}
+/* .contenido-principal .parrafo{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    font-size: 0.9rem;
+    background-color: #ffff00;
+    width: 200px;
+} */
+.contenido-principal .contenedor-form{
+    padding: 20px 20%;
+}
+.contenido-principal .contenedor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* PIE PRINCIPAL */
+.pie-principal {
+    background-color: #cccccc;
+}
+
+.pie-principal li.mensajeria{
+    list-style: none;
+    position: fixed; /* toma como referencia al viewport */
+    bottom: 20px;
+    right: 20px;
+}
+
+/* ATRIBUTO */
+/* [href]{
+
+} */
+
+/* #contactos{
+
+} */

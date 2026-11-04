@@ -1,0 +1,16 @@
+{
+  "name": "clase9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "five-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "five-server": "^0.5.0"
+  }
+}
